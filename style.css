@@ -1,99 +1,36 @@
-.container{
-    display: flex;
-    flex-direction: row;
-
-
-   
-    
+body {
+    font-family: sans-serif;
 }
 
-
-button{
-    border: none;
-    background-color: white;
-    cursor: pointer;
-}
-
-h1{
+h1 {
     text-align: center;
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+    background-color: peru;
+}
+
+a {
     color: black;
-    padding-top: 50px;
+    font-size: 20px;
 }
 
-.logo{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: solid 1px black;
- 
+p, img {
+    border: 3px solid peru;
 }
 
-.image{
-    width: 300px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    border: solid 10px black;
-    border-radius: 10px;
-    z-index: 10;
-
+p, table {
+    font-size: 20px;
 }
 
-.container_logo{
-    width: 150px;
-
-
-}
-
-.container_menu{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    gap: 10px;
-
-
-}
-
-.login{
-    width: 150px;
-    background-color: green;
-    padding: 6px;
-    border-radius: 20px;
-    color: white;
-
-}
-
-.container_image{
-    display: flex;
-    justify-content: center;
-    position: relative;
-
-}   
-
-.overlay{
-    background: green;
-    margin-left: 500px;
-    margin-right: 500px;
-    border-radius: 20px;
-    height: 150px;
-    position: absolute;
-    width: 40%;
-    bottom: 0;
-
-
-}   
-
-footer{
-
+table{
+    background-color: lightyellow;
     text-align: center;
-
+    border-collapse: collapse;
 }
 
-.learn_more{
-    background-color: green;
-    padding: 6px;
-    width: 150px;
-    border-radius: 20px;
-    color: white;
-
+td{
+    border: 1px solid brown;
 }
